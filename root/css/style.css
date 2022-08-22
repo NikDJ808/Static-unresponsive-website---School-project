@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css?family=BioRhyme');
+*{
+	margin: 0px;
+	padding: 0px;
+	
+}
+.cleaner{
+	clear:both;
+}
+.okvir{
+	width:100%;
+	background-color: #FFD700;
+	
+}
+#gore{
+	height:135px;
+	
+}
+#dole{
+	height: 75px;
+	
+}
+
+/* HEADER */
+#gore header{
+	width: 1000px;
+	margin: 0px auto;
+	background-color:#FFF;
+	height: 135px;
+	
+}
+#gore header #logo{
+	width: 206px;
+	float:left;
+	
+	height: inherit;
+	
+	
+}
+
+#gore header #naslov{
+	width:794px;
+	float: right;
+	
+	text-align:center;
+	padding: 20px 0px;
+	background-color: #000;
+}
+#gore header h1{
+	font-family: BioRhyme;
+	font-style: italic;
+	font-size: 50px;
+	color: #FFD700;
+	letter-spacing: 7px;
+	word-spacing: 5px;
+	
+
+	
+	
+}
+#gore header p{
+	color: #FFD700;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: Candara;
+}
+/* NAVIGACIJA */
+nav{
+	width: 1000px;
+	margin: 0px auto;
+	margin-top: 5px;
+	background-color: #000;
+}
+nav #razlicitLink{
+	margin-top: 0px;
+	border-top: 4px solid #FFD700;
+	padding-top: 5px;
+}
+nav ul{
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+nav ul li{
+	padding: 10px;
+	
+}
+nav a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #FFF;
+	
+}
+
+/* RESEN PROBLEM ZA HOVER !!! */
+nav li:hover{
+	
+	background-color: #FFD700;	
+}
+
+nav li:hover a{
+	
+	color: #000;
+	
+}
+
+
+
+/* MAIN */
+main{
+	width:1000px;
+	margin: 0px auto;
+	
+}
+main  figure{
+	float: left;
+	margin-top: 5px;
+	
+}
+main figure img{
+	border-radius: 10px;
+}
+main figure figcaption{
+	background-color: #FFF;
+	text-align:center;
+	font-family: Segoe Script;
+	font-weight: bold;
+	
+}
+main #desno{
+	float:right;
+	width: 635px;
+	background-color: rgb(255,215,0);
+	height: 402px;
+	
+	margin-top: 5px;
+}
+main #desno h2{
+	text-align:center;
+	margin-top: 20px;
+	font-family: Garamond;
+	font-size: 30px;
+}
+main #desno p{
+	margin-top: 40px;
+	text-indent: 30px;
+	text-align: justify;
+	word-spacing: 2px;
+	font-size: 20px;
+	font-family: Candara;
+	padding: 0px 10px;
+}
+
+/* FOOTER */
+
+footer{
+	width: 1000px;
+	margin: 0px auto;
+	background-color: #000;
+	margin-top: 5px;
+	height: 75px;
+}
+footer #copyright{
+	float: left;
+	margin-top: 30px;
+	margin-left: 20px;
+	
+}
+footer  p{
+	color: #FFF;
+	font-family: Candara;
+}
+
+footer ul{
+	list-style-type: none;
+}
+footer ul li{
+	display: inline-block;
+	margin-left: 10px;
+	
+}
+footer a{
+	text-decoration:none;
+}
+footer #socMreze{
+	margin-top: 15px;
+	margin-right: 30px;
+	float: right;
+}
+
+footer .webikonice{
+	padding: 5px;
+	padding-top: 10px;
+	color: #FFF;
+	font-size: 25px;
+}
+.webikonice:hover{
+	color: #FFD700;
+}
+
+
+
+/* GALERIJA.HTML */
+
+#galerija{
+	width:1000px;
+	margin: 0px auto;
+	
+}
+#galerija #galerija1{
+	width: 100%;
+	background-color:#FFD700;
+	padding-bottom: 20px;
+	margin-top: 10px;
+	
+	
+}
+#galerija #galerija1 h2{
+	font-size: 40px;
+	font-family: Garamond;
+	text-align:center;
+	padding-top: 20px;
+}
+#galerija #galerija2{
+	width: 100%;
+	padding: 20px 0px;
+	padding-bottom: 10px;
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	height: 650px;
+	/*align-content: space-between;*/
+	
+	
+	
+}
+#galerija img{
+	 border-radius: 10px;
+	 max-width: 100%;
+	 height: auto;
+	 
+}
+#galerija #galerija2 .slike  a{
+	display: block;
+	height: 100%;
+}
+#galerija .slike{
+	height: 320px;
+	border: 1px solid #000;
+	
+	
+}
+
+
+/* KONTAKT.HTML */
+
+#kontakt{
+	width:1000px;
+	margin: 0px auto;
+	
+	
+}
+
+
+#kontakt #kontaktLevo{
+	width: 520px;
+	float:left;
+	padding-top: 50px;
+}
+#kontakt #kontaktLevo h2{
+	font-family: "Garamond";
+	font-size: 40px;
+}
+#kontakt p{
+	font-size:30px;
+	font-family: Candara;
+}
+#kontakt #kontaktDesno{
+	width: 470px;
+	
+	float: right;
+}
+#kontakt #google-map{
+	width: 450px;
+	height: 550px;
+	
+}
+
+#kontakt hr{
+	border: 3px solid #FFD700;
+}
+
+/* O AUTORU.HTML */
+
+#autor{
+	width: 1000px;
+	margin: 0px auto;
+	height: 500px;
+	margin-top: 10px;
+	background-color: #FFD700;
+}
+#tekstSlika{
+	width:100%;
+	padding-top: 20px;
+}
+#autor #tekstSlika #autorTekst{
+	float:left;
+	width: 630px;
+	
+	padding-top: 30px;
+	
+	
+	
+}
+#autor h2{
+	width:100%;
+	font-family: Garamond;
+	text-align:center;
+	font-size: 40px;
+	padding-top: 20px;
+	
+}
+#autor p{
+	font-family: Candara;
+	padding-left: 30px;
+	padding-bottom: 20px;
+	font-size: 30px;
+	text-indent: 50px;
+	text-align: justify;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+}
+#autor #tekstSlika #autorSlika{
+	float:right;
+	width: 300px;
+	padding-top: 40px;
+	
+	
+	
+}
+#autor img{
+	border-radius: 20px;
+	
+	
+}
+
+/* O NAMA.HTML */
+
+#onama{
+	width:1000px;
+	background-color: #FFD700;
+	margin: 0px auto;
+}
+#onama h2{
+	text-align:center;
+	padding-top:30px;
+	font-family:"Garamond";
+	font-size: 40px;
+}
+#onama p{
+	font-size: 25px;
+	text-indent: 30px;
+	margin: 0px 40px;
+	text-align: justify;
+	font-family: Candara; 
+	word-spacing: 3px;
+	padding-bottom: 30px;
+	
+}
+#formular{
+	width: 1000px;
+	margin: 0px auto;
+	background-color: #FFD700;
+	padding-bottom: 10px;
+}
+#formular #formularLevo{
+	width: 45%;
+	float: left;
+}
+#formular #formularDesno{
+	width: 50%;
+	float: right;
+}
+#formular legend{
+	font-weight: bold;
+	font-size: 25px;
+	font-family: Garamond;
+}
+#formular form{
+	width: 95%;
+	margin: 0px auto;
+}
+#formular fieldset{
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	font-family: Candara;
+}
+#formular .tasteri{
+	padding: 5px;
+}
+#formular #formularDesno{
+	font-family: Candara;
+	font-size: 30px;
+	padding-top: 10px;
+	padding-left: 10px;
+	text-align:justify;
+	padding-right: 20px;
+	
+}
+#formular #formularDesno #razlicitTekst{
+	font-family: BioRhyme;
+	font-weight: bold;
+}
+
+
+
+
+/* CENOVNIK.HTML */
+
+#cenovnik{
+	width: 1000px;
+	margin: 0px auto;
+	background-color: #FFD700;
+}
+#cenovnik h2{
+	text-align: center;
+	padding: 20px 0px;
+	padding-bottom: 50px;
+	font-size: 40px;
+	font-family: "Garamond";
+	
+}
+#cenovnik ul{
+	
+	
+	column-count: 2;
+	column-gap: 100px;
+	font-size: 20px;
+	font-family: Candara;
+	margin-right: 50px;
+	margin-left: 20px;
+}
+#cenovnik ul li{
+	margin-left: 50px;
+	margin-bottom: 10px;
+}
+#cenovnik .cena{
+	font-weight: bold;
+	float:right;
+}
+
+
+
+
+

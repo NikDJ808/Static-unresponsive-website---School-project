@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+	<channel>
+		<title>King &amp; Queen muško-ženski frizerski studio</title>
+		<link>index.html</link>
+		<description>Mi brinemo o Vašoj kosi!</description>
+	<item>
+		<title>King &amp; Queen | O nama</title>
+		<link>onama.html</link>
+		<description>Pišite nam vaše sugestije i primedbe!</description>
+	</item>
+	<item>
+		<title>King &amp; Queen | Cenovnik</title>
+		<link>cenovnik.html</link>
+		<description>Otkrijte naše pristupačne cene!</description>
+	</item>
+	<item>
+		<title>King &amp; Queen | Galerija</title>
+		<link>galerija.html</link>
+		<description>Vidite naše moderne frizure!</description>
+	</item>
+	<item>
+		<title>King &amp; Queen | Kontakt</title>
+		<link>kontakt.html</link>
+		<description>Kontakt podaci</description>
+	</item>
+	<item>
+		<title>King &amp; Queen | O autoru</title>
+		<link>oautoru.html</link>
+		<description>Biografija autora sajta</description>
+	</item>
+	</channel>
+</rss>
